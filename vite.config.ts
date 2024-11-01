@@ -23,6 +23,7 @@ export default defineConfig({
 	],
 	build: {
 		target: 'esnext',
+		cssCodeSplit: false,
 	},
 	resolve: {
 		alias: {
