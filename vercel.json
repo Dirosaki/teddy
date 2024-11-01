@@ -5,7 +5,7 @@
 			"headers": [
 				{
 					"key": "Access-Control-Allow-Origin",
-					"value": "https://app-teddy.vercel.app"
+					"value": "*"
 				},
 				{
 					"key": "Access-Control-Allow-Methods",
@@ -22,7 +22,7 @@
 			"headers": [
 				{
 					"key": "Access-Control-Allow-Origin",
-					"value": "https://app-teddy.vercel.app"
+					"value": "*"
 				},
 				{
 					"key": "Access-Control-Allow-Methods",
