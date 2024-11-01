@@ -23,12 +23,6 @@ export default defineConfig({
 	],
 	build: {
 		target: 'esnext',
-		minify: false,
-		cssCodeSplit: false,
-		modulePreload: false,
-	},
-	server: {
-		cors: true,
 	},
 	resolve: {
 		alias: {
