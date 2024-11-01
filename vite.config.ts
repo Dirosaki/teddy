@@ -16,8 +16,8 @@ export default defineConfig({
 			},
 			shared: ['react', 'react-dom', 'react-router-dom', '@tanstack/react-query'],
 			remotes: {
-				components: 'http://localhost:5001/assets/remoteEntry.js',
-				auth: 'http://localhost:5002/assets/remoteEntry.js',
+				components: process.env.VITE_COMPONENTS_APP_URL || 'http://localhost:5001/assets/remoteEntry.js',
+				auth: process.env.VITE_AUTH_APP_URL || 'http://localhost:5002/assets/remoteEntry.js',
 			},
 		}),
 	],
