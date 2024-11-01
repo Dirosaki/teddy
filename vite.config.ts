@@ -31,6 +31,14 @@ export default defineConfig({
 		minify: false,
 		cssCodeSplit: false,
 	},
+	server: {
+		cors: {
+			origin: '*',
+			methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
+			allowedHeaders: ['X-Requested-With', 'content-type', 'Authorization'],
+		},
+		port: 5003,
+	},
 	resolve: {
 		alias: {
 			'@': path.resolve(__dirname, './src'),
