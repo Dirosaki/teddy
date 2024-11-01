@@ -1,16 +1,17 @@
 import { zodResolver } from '@hookform/resolvers/zod'
+import cookies from 'js-cookie'
+import { LoaderCircle } from 'lucide-react'
+import { Controller, useForm } from 'react-hook-form'
+
 import { Button } from 'components/ui/button'
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from 'components/ui/card'
 import { Checkbox } from 'components/ui/checkbox'
 import { Input } from 'components/ui/input'
 import { Label } from 'components/ui/label'
 
-import cookies from 'js-cookie'
-
 import { useAuthStore } from '@/store'
 import { wait } from '@/utils/wait'
-import { LoaderCircle } from 'lucide-react'
-import { Controller, useForm } from 'react-hook-form'
+
 import { LoginForm, schema } from './schema'
 
 export default function Login() {
