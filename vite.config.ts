@@ -14,7 +14,7 @@ export default defineConfig({
 				'./Store': './src/store/index.ts',
 			},
 			remotes: {
-				components: 'http://localhost:5001/assets/remoteEntry.js',
+				components: process.env.VITE_COMPONENTS_APP_URL || 'http://localhost:5001/assets/remoteEntry.js',
 			},
 			shared: ['react', 'react-dom', 'react-router-dom', '@tanstack/react-query'],
 		}),
