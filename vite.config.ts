@@ -26,12 +26,7 @@ export default defineConfig({
 		cssCodeSplit: false,
 	},
 	server: {
-		cors: {
-			origin: '*',
-			methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
-			allowedHeaders: ['X-Requested-With', 'content-type', 'Authorization'],
-		},
-		port: 5001,
+		cors: true,
 	},
 	resolve: {
 		alias: {
