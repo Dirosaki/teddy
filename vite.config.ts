@@ -26,13 +26,7 @@ export default defineConfig({
 		}),
 	],
 	build: {
-		outDir: 'dist',
 		target: 'esnext',
-		minify: false,
-		cssCodeSplit: false,
-	},
-	server: {
-		cors: true,
 	},
 	resolve: {
 		alias: {
