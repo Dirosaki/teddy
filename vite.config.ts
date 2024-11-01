@@ -9,9 +9,6 @@ export default defineConfig({
 		federation({
 			name: 'auth',
 			filename: 'remoteEntry.js',
-			exposes: {
-				'./Login': './src/Login/index.tsx',
-			},
 			remotes: {
 				components: process.env.VITE_COMPONENTS_APP_URL || 'http://localhost:5001/assets/remoteEntry.js',
 				auth: process.env.VITE_AUTH_APP_URL || 'http://localhost:5002/assets/remoteEntry.js',
