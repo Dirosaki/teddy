@@ -1,12 +1,14 @@
+import { lazy } from 'react'
 import { useRoutes } from 'react-router-dom'
 
-import Login from 'auth/Login'
-import Companies from 'partners/Companies'
-import Partners from 'partners/Partners'
+const Login = lazy(() => import('auth/Login'))
+const Companies = lazy(() => import('partners/Companies'))
+const Partners = lazy(() => import('partners/Partners'))
 
 import { PrivateLayout } from '@/layouts/PrivateLayout'
-import Home from '@/pages/Home'
 import { AuthGuard } from './AuthGuard'
+
+const Home = lazy(() => import('@/pages/Home'))
 
 export const Router = () =>
 	useRoutes([
