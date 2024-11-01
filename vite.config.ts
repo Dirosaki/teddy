@@ -28,11 +28,7 @@ export default defineConfig({
 		modulePreload: false,
 	},
 	server: {
-		cors: {
-			origin: '*',
-			methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
-			allowedHeaders: ['X-Requested-With', 'content-type', 'Authorization'],
-		},
+		cors: true,
 	},
 	resolve: {
 		alias: {
