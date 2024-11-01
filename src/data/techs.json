@@ -1,0 +1,41 @@
+[
+	{
+		"name": "ReactJS"
+	},
+	{
+		"name": "TypeScript"
+	},
+	{
+		"name": "Vite"
+	},
+	{
+		"name": "Module Federation"
+	},
+	{
+		"name": "React Query"
+	},
+	{
+		"name": "React Table"
+	},
+	{
+		"name": "Zustand"
+	},
+	{
+		"name": "React Hook Form"
+	},
+	{
+		"name": "Zod"
+	},
+	{
+		"name": "TailwindCSS"
+	},
+	{
+		"name": "ShadCN"
+	},
+	{
+		"name": "React Router Dom"
+	},
+	{
+		"name": "Axios"
+	}
+]

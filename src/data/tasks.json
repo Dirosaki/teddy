@@ -1,0 +1,66 @@
+[
+	{
+		"name": "Micro-Frontend",
+		"checked": true
+	},
+	{
+		"name": "Utilização de Angular",
+		"checked": false
+	},
+	{
+		"name": "Utilização de Vite",
+		"checked": true
+	},
+	{
+		"name": "Code Splitting",
+		"checked": false
+	},
+	{
+		"name": "Testes",
+		"checked": false
+	},
+	{
+		"name": "Documentação de README",
+		"checked": false
+	},
+	{
+		"name": "Containerização com Docker",
+		"checked": false
+	},
+	{
+		"name": "Página de login",
+		"checked": true
+	},
+	{
+		"name": "Rotas privadas",
+		"checked": true
+	},
+	{
+		"name": "Botão de sair",
+		"checked": true
+	},
+	{
+		"name": "Nome do usuário no cabeçalho",
+		"checked": true
+	},
+	{
+		"name": "Listagem de registros",
+		"checked": true
+	},
+	{
+		"name": "CRUD de registros",
+		"checked": true
+	},
+	{
+		"name": "Paginação de registros",
+		"checked": false
+	},
+	{
+		"name": "Busca por registros com URL State",
+		"checked": true
+	},
+	{
+		"name": "UI Otimista com React Query",
+		"checked": true
+	}
+]
